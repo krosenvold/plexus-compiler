@@ -1,0 +1,508 @@
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective settings
+[WARNING] 'profiles.profile[bamboo].repositories.repository.layout' for atlassian-m1-repository uses the unsupported value 'legacy', artifact resolution might fail. @ /home/kristian/.m2/settings.xml
+[WARNING] 
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] Plexus Compiler
+[INFO] Plexus Compiler Api
+[INFO] Plexus Compiler Manager
+[INFO] Plexus Compiler Test Harness
+[INFO] Plexus Compilers
+[INFO] Plexus AspectJ Compiler
+[INFO] Plexus C# Compiler
+[INFO] Plexus Eclipse Compiler
+[INFO] Plexus Jikes Compiler
+[INFO] Plexus Javac Component
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Compiler 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/target
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler/1.9.2-SNAPSHOT/plexus-compiler-1.9.2-SNAPSHOT.pom
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/target/plexus-compiler-1.9.2-SNAPSHOT-site.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler/1.9.2-SNAPSHOT/plexus-compiler-1.9.2-SNAPSHOT-site.xml
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Compiler Api 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-api ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-api ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-api ---
+[INFO] Compiling 15 source files to /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-api ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-api ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-api ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-api ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-api ---
+[INFO] Compiling 4 source files to /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/target/test-classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-api ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-api ---
+[INFO] Surefire report directory: /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.codehaus.plexus.compiler.util.scan.StaleSourceScannerTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+Running org.codehaus.plexus.compiler.util.scan.SimpleSourceInclusionScannerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+Running org.codehaus.plexus.compiler.util.scan.mapping.SuffixMappingTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+
+Results :
+
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-api ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/target/plexus-compiler-api-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-api ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-api ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/target/plexus-compiler-api-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-api/1.9.2-SNAPSHOT/plexus-compiler-api-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compiler-api/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-api/1.9.2-SNAPSHOT/plexus-compiler-api-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Compiler Manager 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-manager ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-manager ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-manager ---
+[INFO] Compiling 3 source files to /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-manager ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-manager ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-manager ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-manager ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-manager ---
+[INFO] Compiling 1 source file to /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/target/test-classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-manager ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-manager ---
+[INFO] Surefire report directory: /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.codehaus.plexus.compiler.manager.CompilerManagerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.127 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-manager ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/target/plexus-compiler-manager-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-manager ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-manager ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/target/plexus-compiler-manager-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-manager/1.9.2-SNAPSHOT/plexus-compiler-manager-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compiler-manager/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-manager/1.9.2-SNAPSHOT/plexus-compiler-manager-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Compiler Test Harness 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-test ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compiler-test/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-test ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compiler-test/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-test ---
+[INFO] Compiling 2 source files to /home/kristian/lsrc/plexus-compiler/plexus-compiler-test/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-test ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-test ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-test ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-test ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compiler-test/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-test ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-test ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-test ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-test ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compiler-test/target/plexus-compiler-test-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-test ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-test ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compiler-test/target/plexus-compiler-test-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-test/1.9.2-SNAPSHOT/plexus-compiler-test-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compiler-test/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-test/1.9.2-SNAPSHOT/plexus-compiler-test-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Compilers 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compilers ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compilers ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compilers ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compilers ---
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compilers ---
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compilers ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compilers ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compilers/1.9.2-SNAPSHOT/plexus-compilers-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus AspectJ Compiler 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-aspectj ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-aspectj ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-aspectj ---
+[INFO] Compiling 2 source files to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-aspectj ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-aspectj ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-aspectj ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-aspectj ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-aspectj ---
+[INFO] Compiling 1 source file to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/target/test-classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-aspectj ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-aspectj ---
+[INFO] Surefire report directory: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.codehaus.plexus.compiler.ajc.AspectJCompilerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.828 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-aspectj ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/target/plexus-compiler-aspectj-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-aspectj ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-aspectj ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/target/plexus-compiler-aspectj-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-aspectj/1.9.2-SNAPSHOT/plexus-compiler-aspectj-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-aspectj/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-aspectj/1.9.2-SNAPSHOT/plexus-compiler-aspectj-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus C# Compiler 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-csharp ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-csharp ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-csharp ---
+[INFO] Compiling 2 source files to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-csharp ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-csharp ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-csharp ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-csharp ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-csharp ---
+[INFO] Compiling 1 source file to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/target/test-classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-csharp ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-csharp ---
+[INFO] Surefire report directory: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.codehaus.plexus.compiler.csharp.CSharpCompilerTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-csharp ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/target/plexus-compiler-csharp-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-csharp ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-csharp ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/target/plexus-compiler-csharp-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-csharp/1.9.2-SNAPSHOT/plexus-compiler-csharp-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-csharp/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-csharp/1.9.2-SNAPSHOT/plexus-compiler-csharp-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Eclipse Compiler 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-eclipse ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-eclipse ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-eclipse ---
+[INFO] Compiling 2 source files to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-eclipse ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-eclipse ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-eclipse ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-eclipse ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-eclipse ---
+[INFO] Compiling 2 source files to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/target/test-classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-eclipse ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-eclipse ---
+[INFO] Surefire report directory: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.codehaus.plexus.compiler.eclipse.EclipseCompilerTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.674 sec
+Running org.codehaus.plexus.compiler.eclipse.EclipseCompilerTckTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.059 sec
+
+Results :
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-eclipse ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/target/plexus-compiler-eclipse-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-eclipse ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-eclipse ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/target/plexus-compiler-eclipse-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-eclipse/1.9.2-SNAPSHOT/plexus-compiler-eclipse-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-eclipse/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-eclipse/1.9.2-SNAPSHOT/plexus-compiler-eclipse-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Jikes Compiler 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-jikes ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-jikes ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-jikes ---
+[INFO] Compiling 1 source file to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-jikes ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-jikes ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-jikes ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-jikes ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-jikes ---
+[INFO] Compiling 1 source file to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/target/test-classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-jikes ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-jikes ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-jikes ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/target/plexus-compiler-jikes-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-jikes ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-jikes ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/target/plexus-compiler-jikes-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-jikes/1.9.2-SNAPSHOT/plexus-compiler-jikes-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-jikes/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-jikes/1.9.2-SNAPSHOT/plexus-compiler-jikes-1.9.2-SNAPSHOT.pom
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Plexus Javac Component 1.9.2-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ plexus-compiler-javac ---
+[INFO] Deleting /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ plexus-compiler-javac ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ plexus-compiler-javac ---
+[INFO] Compiling 2 source files to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/target/classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (process-classes) @ plexus-compiler-javac ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-metadata (default) @ plexus-compiler-javac ---
+[INFO] Discovered 1 component descriptors(s)
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:merge-metadata (default) @ plexus-compiler-javac ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ plexus-compiler-javac ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ plexus-compiler-javac ---
+[INFO] Compiling 2 source files to /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/target/test-classes
+[INFO] 
+[INFO] --- plexus-component-metadata:1.5.5:generate-test-metadata (process-test-classes) @ plexus-compiler-javac ---
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.13-SNAPSHOT:test (default-test) @ plexus-compiler-javac ---
+[INFO] Surefire report directory: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running org.codehaus.plexus.compiler.javac.JavacCompilerTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.762 sec
+Running org.codehaus.plexus.compiler.javac.ErrorMessageParserTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ plexus-compiler-javac ---
+[INFO] Building jar: /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/target/plexus-compiler-javac-1.9.2-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-site-plugin:3.0:attach-descriptor (attach-descriptor) @ plexus-compiler-javac ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.3.1:install (default-install) @ plexus-compiler-javac ---
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/target/plexus-compiler-javac-1.9.2-SNAPSHOT.jar to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-javac/1.9.2-SNAPSHOT/plexus-compiler-javac-1.9.2-SNAPSHOT.jar
+[INFO] Installing /home/kristian/lsrc/plexus-compiler/plexus-compilers/plexus-compiler-javac/pom.xml to /home/kristian/fast/repo/org/codehaus/plexus/plexus-compiler-javac/1.9.2-SNAPSHOT/plexus-compiler-javac-1.9.2-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] Plexus Compiler ................................... SUCCESS [0.930s]
+[INFO] Plexus Compiler Api ............................... SUCCESS [1.527s]
+[INFO] Plexus Compiler Manager ........................... SUCCESS [0.365s]
+[INFO] Plexus Compiler Test Harness ...................... SUCCESS [0.148s]
+[INFO] Plexus Compilers .................................. SUCCESS [0.018s]
+[INFO] Plexus AspectJ Compiler ........................... SUCCESS [1.110s]
+[INFO] Plexus C# Compiler ................................ SUCCESS [0.303s]
+[INFO] Plexus Eclipse Compiler ........................... SUCCESS [1.039s]
+[INFO] Plexus Jikes Compiler ............................. SUCCESS [0.102s]
+[INFO] Plexus Javac Component ............................ SUCCESS [1.077s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 6.927s
+[INFO] Finished at: Mon Aug 20 21:59:42 CEST 2012
+[INFO] Final Memory: 26M/309M
+[INFO] ------------------------------------------------------------------------

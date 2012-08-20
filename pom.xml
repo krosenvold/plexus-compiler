@@ -110,6 +110,13 @@
       <plugin>
         <groupId>org.codehaus.plexus</groupId>
         <artifactId>plexus-component-metadata</artifactId>
+        <dependencies>
+          <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>${plexus.version}</version>
+          </dependency>
+        </dependencies>
         <executions>
           <execution>
             <goals>
